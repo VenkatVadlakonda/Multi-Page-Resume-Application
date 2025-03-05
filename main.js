@@ -6,7 +6,7 @@ function playTypingAnimation(text) {
   for (let i = 0; i < text.length; i++) {
     setTimeout(() => {
       element.textContent += text[i];
-    }, i * 400);
+    }, i * 300);
   }
 
   setTimeout(() => {
@@ -14,7 +14,7 @@ function playTypingAnimation(text) {
     playTypingAnimation(
       typingTexts[(typingTexts.indexOf(text) + 1) % typingTexts.length]
     );
-  }, text.length * 400);
+  }, text.length * 300);
 }
 
 playTypingAnimation(typingTexts[0]);

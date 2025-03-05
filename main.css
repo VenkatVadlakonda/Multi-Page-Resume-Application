@@ -48,7 +48,8 @@ nav ol li a {
   font-size: larger;
 }
 nav ol li:hover {
-  background-color: #2f1012;
+  /* background-color: #2f1012; */
+  background-color: #2f364a;
   border-radius: 20px;
 }
 nav ol li a:hover {
@@ -237,7 +238,7 @@ legend {
   }
 
   .section-content {
-    width: 95%;
+    width: 85%;
     margin: 20px auto;
   }
 
