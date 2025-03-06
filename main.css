@@ -3,6 +3,7 @@ body {
   padding: 0;
   /* background-color: #f3d2d2; */
   background-color: #ede4d6;
+  font-family: 'Times New Roman', Times, serif;
 }
 /*Header Section*/
 .img-content {
@@ -154,7 +155,8 @@ i {
   border-bottom: 1px solid black;
   padding: 18px;
   border-radius: 10px;
-  box-shadow: 4px 3px 4px 3px rgb(105, 15, 112);
+  
+  box-shadow: 5px 5px 15px hsla(0,0%,0%,0.5);
 }
 .Contact-section input {
   width: 85%;
@@ -208,7 +210,7 @@ span {
 fieldset {
   border-radius: 20px;
   text-align: center;
-  box-shadow: 2px 3px 4px 2px black;
+  box-shadow: 5px 5px 15px hsla(0,0%,0%,0.5);
 }
 legend {
   background-color: white;
